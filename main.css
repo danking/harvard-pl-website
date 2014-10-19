@@ -16,5 +16,31 @@ img#logo {
   padding: 0em 0em 3em 3em;
 }
 
+dt::before {
+  content: "◊";
+  padding-right: .5em;
+}
+
+dt {
+  padding-left: 1em;
+}
+
+dd {
+  padding-bottom: 1em;
+}
+
+li::before {
+  content: "◊";
+  padding-right: .5em;
+}
+
+ul {
+  padding-left: 1em;
+}
+
+ul li {
+  list-style-type: none;
+}
+
 a:link  { text-decoration:none; }
 a:hover { text-decoration:underline;}
