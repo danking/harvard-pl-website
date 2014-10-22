@@ -44,3 +44,13 @@ ul li {
 
 a:link  { text-decoration:none; }
 a:hover { text-decoration:underline;}
+
+@media only screen and (max-device-width: 480px) {
+  img#logo {
+    padding: 3em 3em 3em;
+  }
+  h1 {
+    text-align: center;
+  }
+}
+
