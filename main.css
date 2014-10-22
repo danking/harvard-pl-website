@@ -54,6 +54,7 @@ only screen and (min-device-pixel-ratio : 1.5) {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    padding: 0;
   }
   h1 {
     text-align: center;
